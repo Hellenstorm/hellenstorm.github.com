@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>Project--3D Rigid Object Tracking -------chapter 3 | Hellen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="&amp;#x8FD9;&amp;#x5468;&amp;#x6211;&amp;#x4EEC;&amp;#x5927;&amp;#x90E8;&amp;#x5206;&amp;#x65F6;&amp;#x95F4;&amp;#x90FD;&amp;#x5728;&amp;#x627E;&amp;#x4EE3;&amp;#x7801;&amp;#xFF0C;&amp;#x60F3;&amp;#x7740;&amp;#x501F;&amp;#x9274;&amp;#x5B66;&amp;#x4E60;&amp;#x4E00;&amp;#x4E0B;&amp;#xFF0C;&amp;#x4F46;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Project--3D Rigid Object Tracking -------chapter 3">
+<meta property="og:url" content="http://yoursite.com/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/index.html">
+<meta property="og:site_name" content="Hellen">
+<meta property="og:description" content="&amp;#x8FD9;&amp;#x5468;&amp;#x6211;&amp;#x4EEC;&amp;#x5927;&amp;#x90E8;&amp;#x5206;&amp;#x65F6;&amp;#x95F4;&amp;#x90FD;&amp;#x5728;&amp;#x627E;&amp;#x4EE3;&amp;#x7801;&amp;#xFF0C;&amp;#x60F3;&amp;#x7740;&amp;#x501F;&amp;#x9274;&amp;#x5B66;&amp;#x4E60;&amp;#x4E00;&amp;#x4E0B;&amp;#xFF0C;&amp;#x4F46;">
+<meta property="og:image" content="http://yoursite.com/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/1.png">
+<meta property="og:image" content="http://yoursite.com/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/2.png">
+<meta property="og:image" content="http://yoursite.com/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/3.png">
+<meta property="og:updated_time" content="2016-06-02T14:33:25.961Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Project--3D Rigid Object Tracking -------chapter 3">
+<meta name="twitter:description" content="&amp;#x8FD9;&amp;#x5468;&amp;#x6211;&amp;#x4EEC;&amp;#x5927;&amp;#x90E8;&amp;#x5206;&amp;#x65F6;&amp;#x95F4;&amp;#x90FD;&amp;#x5728;&amp;#x627E;&amp;#x4EE3;&amp;#x7801;&amp;#xFF0C;&amp;#x60F3;&amp;#x7740;&amp;#x501F;&amp;#x9274;&amp;#x5B66;&amp;#x4E60;&amp;#x4E00;&amp;#x4E0B;&amp;#xFF0C;&amp;#x4F46;">
+<meta name="twitter:image" content="http://yoursite.com/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/1.png">
+  
+    <link rel="alternative" href="/atom.xml" title="Hellen" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="null" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Hellen storm</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/Hellenstorm" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/u/3059262327?refer_flag=1005055010_&is_all=1" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="http://www.codeforge.cn" title="rss">rss</a>
+					        
+								<a class="zhihu" target="_blank" href="https://www.zhihu.com" title="zhihu">zhihu</a>
+					        
+								<a class="codeforge" target="_blank" href="http://www.codeforge.cn" title="codeforge">codeforge</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						
+					</div>
+				</section>
+				
+				
+				
+
+				
+				
+				<section class="switch-part switch-part3">
+				
+					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Hellen storm</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="null" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Hellen storm</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/Hellenstorm" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/u/3059262327?refer_flag=1005055010_&is_all=1" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="http://www.codeforge.cn" title="rss">rss</a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com" title="zhihu">zhihu</a>
+			        
+						<a class="codeforge" target="_blank" href="http://www.codeforge.cn" title="codeforge">codeforge</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-Project-3D-Rigid-Object-Tracking-chapter-3" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/" class="article-date">
+  	<time datetime="2016-06-02T11:51:23.000Z" itemprop="datePublished">2016-06-02</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Project--3D Rigid Object Tracking -------chapter 3
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#x8FD9;&#x5468;&#x6211;&#x4EEC;&#x5927;&#x90E8;&#x5206;&#x65F6;&#x95F4;&#x90FD;&#x5728;&#x627E;&#x4EE3;&#x7801;&#xFF0C;&#x60F3;&#x7740;&#x501F;&#x9274;&#x5B66;&#x4E60;&#x4E00;&#x4E0B;&#xFF0C;&#x4F46;&#x53D1;&#x73B0;&#x4E8C;&#x7EF4;&#x7684;&#x56FE;&#x50CF;&#x8DDF;&#x8E2A;&#x4EE3;&#x7801;&#x6BD4;&#x8F83;&#x591A;&#xFF0C;&#x4E09;&#x7EF4;&#x7684;&#x7279;&#x522B;&#x5C11;&#x3002;&#x603B;&#x5171;&#x5206;3&#x4E2A;&#x90E8;&#x5206;&#x8FDB;&#x884C;&#x5B66;&#x4E60;&#xFF0C;&#x5927;&#x81F4;&#x90FD;&#x662F;&#x5173;&#x4E8E;&#x5BF9;&#x89C6;&#x9891;&#x4E2D;&#x52A8;&#x6001;&#x76EE;&#x6807;&#x8FDB;&#x884C;&#x8FFD;&#x8E2A;&#xFF1A;<br>1 &#x7F57;&#x97F3;&#x540C;&#x5B66;&#x4E3B;&#x8981;&#x5B66;&#x4E60;Matlab&#x76F8;&#x5173;&#x7684;&#x5BF9;&#x89C6;&#x9891;&#x4E2D;&#x52A8;&#x6001;&#x76EE;&#x6807;&#x8FDB;&#x884C;&#x8FFD;&#x8E2A;&#xFF1B;<br>2 &#x8BB8;&#x4F73;&#x742A;&#x540C;&#x5B66;&#x5B66;&#x4E86;&#x4E00;&#x4E0B;openCV&#xFF0C;&#x8C03;&#x8BD5;&#x4E86;&#x4E00;&#x4E2A;&#x76F8;&#x5173;&#x7684;&#x7A0B;&#x5E8F;&#xFF1B;<br>3 &#x6211;&#x5B66;&#x4E86;&#x4E00;&#x4E0B;openCV,&#x4E3B;&#x8981;&#x627E;&#x4E00;&#x4E9B;&#x4E09;&#x7EF4;&#x65B9;&#x9762;&#x7684;&#x5BF9;&#x76EE;&#x6807;&#x8FDB;&#x884C;&#x8FFD;&#x8E2A;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x60F3;&#x6839;&#x636E;&#x8001;&#x5E08;&#x7ED9;&#x7684;&#x6587;&#x732E;5&#x81EA;&#x5DF1;&#x8BD5;&#x7740;&#x8FDB;&#x884C;&#x5B9E;&#x73B0;,&#x8FD8;&#x6709;&#x4F9D;&#x65E7;&#x8D1F;&#x8D23;&#x7F51;&#x7AD9;&#x66F4;&#x65B0;&#xFF1B;<br>&#x5177;&#x4F53;&#x4ECB;&#x7ECD;&#x770B;&#x6211;&#x7684; <a href="#jump">Progress</a></p>
+<h2 id="Team-amp-Project"><a href="#Team-amp-Project" class="headerlink" title="Team  &amp; Project"></a>Team  &amp; Project</h2><table><tr><td bgcolor="#D3D3D3">&#x8BFE;&#x7A0B;&#x540D;&#x79F0;: &#x56FE;&#x50CF;&#x5206;&#x6790;&#x4E0E;&#x7406;&#x89E3;<br>&#x9879;&#x76EE;&#x540D;&#x79F0;: 3D Rigid Object Tracking<br>HeadLine: 6/17/2016<br>&#x961F;&#x5458;&#x59D3;&#x540D;&#xFF1A;&#x6768;&#x6885;&#xFF0C;&#x8BB8;&#x4F73;&#x742A;&#xFF0C;&#x7F57;&#x97F3;<br>&#x534E;&#x4E2D;&#x79D1;&#x6280;&#x5927;&#x5B66; &#x7535;&#x5B50;&#x4FE1;&#x606F;&#x4E0E;&#x901A;&#x4FE1;&#x5B66;&#x9662;<br></td></tr></table>
+
+
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><table><tr><td bgcolor="#D3D3D3">The objective of 3D rigid object tracking is to associate 3D target objects in consecutive video frames and meanwhile estimate the relative pose (3D translation and 3D rotation) between the 3D targetand the camera. Rigid means the relative position among object components do not change. For instance, a cup, a book and a car are rigid object while a human face and a cat are non-rigid object. It has a variety of uses, some of which are: humancomputer interaction, security and surveillance, video communication and compression, augmented reality, traffic control, medical imaging and video editing.3D object tracking can be especially difficult when the objects are moving fast relative to the frame rate. Another situation that increases the complexity of the problem is when the tracked object changes orientation over time. For these situations the tracking system usually employs a motion model whichdescribes how the image of the target might change for different possible motions of the object.<br></td></tr></table>
+
+<h2 id="Progress"><a href="#Progress" class="headerlink" title="Progress"></a><span id="jump">Progress</span></h2><h3 id="&#x4E00;-&#x5173;&#x4E8E;Matlab"><a href="#&#x4E00;-&#x5173;&#x4E8E;Matlab" class="headerlink" title="&#x4E00; &#x5173;&#x4E8E;Matlab"></a>&#x4E00; &#x5173;&#x4E8E;Matlab</h3><blockquote>
+<p>&#x8981;&#x4E0D;&#x662F;&#x505A;&#x9879;&#x76EE;&#x5E94;&#x8BE5;&#x6C38;&#x8FDC;&#x90FD;&#x4E0D;&#x4F1A;&#x7528;&#x5230;Matlab&#x7684;&#xFF0C;&#x8981;&#x4E0D;&#x662F;&#x4EB2;&#x81EA;&#x4F53;&#x9A8C;&#xFF0C;&#x8FD8;&#x4E0D;&#x77E5;&#x9053;&#x529F;&#x80FD;&#x5982;&#x6B64;&#x5F3A;&#x5927;&#xFF01;&#x7F57;&#x97F3;&#x540C;&#x5B66;&#x53D1;&#x73B0;Matlab&#x4E2D;&#x6709;&#x4E00;&#x4E9B;&#x81EA;&#x5E26;&#x7684;&#x591A;&#x76EE;&#x6807;&#x8FFD;&#x8E2A;&#x7684;&#x5B9E;&#x4F8B;&#xFF08;&#x8981;&#x6C42;&#x7248;&#x672C;R13a&#x4EE5;&#x4E0A;&#xFF09;&#xFF1A;&#x53EF;&#x5728;D:\Program Files\MATLAB\R2014a\toolbox\vision\visiondemos&#x627E;&#x5230;&#x3002;&#x5728;&#x547D;&#x4EE4;&#x7A97;&#x53E3;&#x4E2D;&#x8F93;&#x5165;&#x201D;edit multiObjectTracking&#x201D;&#x5C31;&#x53EF;&#x4EE5;&#x770B;&#x5230;multiObjectTracking&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x6211;&#x4EEC;&#x53D1;&#x73B0;MATLAB&#x8FD8;&#x6709;&#x81EA;&#x5E26;&#x7684;&#x89C6;&#x9891;&#x64AD;&#x653E;&#x5668;&#xFF0C;&#x4E3A;&#x4E86;&#x4E0A;&#x4F20;&#x6211;&#x4E3B;&#x8981;&#x5B66;&#x4E60;&#x4E86;&#x5982;&#x4F55;&#x5C06;Matlab&#x8DD1;&#x51FA;&#x6765;&#x7684;&#x5E27;&#x5E8F;&#x5217;&#x4FDD;&#x5B58;&#x6210;.avi&#x683C;&#x5F0F;&#x7684;&#x89C6;&#x9891;&#xFF0C;&#x7136;&#x540E;&#x4E0A;&#x4F20;&#x5230;YouTube&#x8BE6;&#x89C1;&#x5982;&#x4E0B;&#x94FE;&#x63A5;&#xFF1A;matlab&#x5199;&#x5165;/&#x5408;&#x6210;&#x89C6;&#x9891;VideoWriter&#x7C7B;(<a href="http://blog.163.com/yuyang_tech/blog/static/21605008320139854818157/" target="_blank" rel="external">http://blog.163.com/yuyang_tech/blog/static/21605008320139854818157/</a>)<br>&#x8FD9;&#x4E2A;&#x8FFD;&#x8E2A;&#x65B9;&#x6CD5;&#x8FBE;&#x5230;&#x7684;&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Fz8l2a3KAoQ" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/dvTUsjzqxUU" frameborder="0" allowfullscreen></iframe><br>&#x5B83;&#x8FD9;&#x4E2A;&#x7CFB;&#x7EDF;&#x57FA;&#x4E8E;&#x4E00;&#x4E2A;&#x5047;&#x8BBE;:&#x6240;&#x6709;&#x88AB;&#x63A2;&#x6D4B;&#x7684;&#x7269;&#x4F53;&#x505A;&#x5300;&#x901F;&#x76F4;&#x7EBF;&#x8FD0;&#x52A8;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x662F;&#x7684;&#x8BDD;&#x53EF;&#x80FD;&#x4F1A;&#x51FA;&#x73B0;&#x9519;&#x8BEF;,&#x6982;&#x62EC;&#x8D77;&#x6765;&#x5982;&#x4E0B;&#xFF1A;<br>The detection of moving objects uses a background subtraction algorithm based on Gaussian mixture models. Morphological operations are applied to the resulting foreground mask to eliminate noise. Finally, blob analysis detects groups of connected pixels, which are likely to correspond to moving objects.<br>The association of detections to the same object is based solely on motion. The motion of each track is estimated by a Kalman filter. The filter is used to predict the track&#x2019;s location in each frame, and determine the likelihood of each detection being assigned to each track.</p>
+</blockquote>
+<p>More info: <a href="http://cn.mathworks.com/help/vision/examples/motion-based-multiple-object-tracking.html?requestedDomain=cn.mathworks.com" target="_blank" rel="external">Motion-Based Multiple Object Tracking</a></p>
+<h3 id="&#x4E8C;-&#x5173;&#x4E8E;openCV"><a href="#&#x4E8C;-&#x5173;&#x4E8E;openCV" class="headerlink" title="&#x4E8C; &#x5173;&#x4E8E;openCV"></a>&#x4E8C; &#x5173;&#x4E8E;openCV</h3><blockquote>
+<p>&#x4E3A;&#x4E86;&#x6700;&#x7EC8;&#x505A;&#x51FA;3D&#x7684;&#x6548;&#x679C;&#xFF0C;&#x6211;&#x4EEC;&#x60F3;&#x5229;&#x7528;openCV&#x7684;&#x5F3A;&#x5927;&#x7684;&#x56FE;&#x50CF;&#x5904;&#x7406;&#x529F;&#x80FD;&#xFF0C;&#x505A;&#x4E86;&#x5982;&#x4E0B;&#x5DE5;&#x4F5C;&#xFF1A;<br>&#xFF08;1&#xFF09;&#x914D;&#x7F6E;openCV&#xFF1A;<a href="http://blog.csdn.net/huang9012/article/details/21811129" target="_blank" rel="external">http://blog.csdn.net/huang9012/article/details/21811129</a><br>(&#x8FD9;&#x4E2A;&#x94FE;&#x63A5;&#x57FA;&#x672C;&#x4E0A;&#x89E3;&#x51B3;&#x4E86;&#x4ECA;&#x540E;&#x8981;&#x7528;openCV&#x8FD0;&#x884C;&#x65F6;&#x51FA;&#x73B0;&#x7684;&#x6240;&#x6709;&#x8BA9;&#x4EBA;&#x6293;&#x72C2;&#x7684;&#x95EE;&#x9898;)<br>     &#x7ECF;&#x9A8C;&#xFF1A;&#x5343;&#x4E07;&#x6CE8;&#x610F;lib&#x5E93;&#x7684;&#x914D;&#x7F6E;&#xFF08;&#x5426;&#x5219;&#x6BCF;&#x6B21;&#x65B0;&#x5EFA;&#x5DE5;&#x7A0B;&#x90FD;&#x5F97;&#x914D;&#x7F6E;&#x4E00;&#x904D;&#xFF09;<br> (2)&#x4F8B;&#x5B50;1&#xFF1A;&#x7528;openCV&#x5B9E;&#x73B0;&#x5BF9;&#x89C6;&#x9891;&#x4E2D;&#x52A8;&#x6001;&#x76EE;&#x6807;&#x7684;&#x8FFD;&#x8E2A; <a href="http://wenku.baidu.com/view/0a3d2449f7ec4afe04a1dffa.html?from=search" target="_blank" rel="external">http://wenku.baidu.com/view/0a3d2449f7ec4afe04a1dffa.html?from=search</a> &#x7B2C;&#x4E00;&#x6B21;&#x5B66;&#x4E60;&#x5EFA;&#x7ACB;MFC&#x5BF9;&#x8BDD;&#x6846;&#xFF0C;&#x53D1;&#x73B0;&#x5B66;&#x8D77;&#x6765;&#x5E76;&#x4E0D;&#x5BB9;&#x6613;&#xFF1A;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x5730;&#x65B9;&#xFF1A;<br> 1.&#x4F7F;&#x7528;OpenCVS&#x51FD;&#x6570;&#x5E93;&#xFF0C;&#x8981;&#x6CE8;&#x610F;&#x5305;&#x542B;&#x7684;&#x5934;&#x6587;&#x4EF6;&#x7684;&#x987A;&#x5E8F;&#xFF0C;&#x8981;&#x5148;&#x5305;&#x542B;VS&#x7684;&#x5934;&#x6587;&#x4EF6;&#x5728;&#x5305;&#x542B;OpenCV&#x7684;&#x5934;&#x6587;&#x4EF6;<br> 2.CFileDialog&#x7684;&#x7528;&#x6CD5;&#xFF1A;<br> <a href="http://www.cnblogs.com/doublesnke/archive/2011/07/19/2110341.html" target="_blank" rel="external">http://www.cnblogs.com/doublesnke/archive/2011/07/19/2110341.html</a><br> <a href="http://blog.sina.com.cn/s/blog_915fe1f201019xx2.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_915fe1f201019xx2.html</a><br>3.&#x51FA;&#x73B0;&#x5982;&#x4E0B;&#x6293;&#x72C2;&#x7684;&#x9519;&#x8BEF;&#xFF1A;<br><img src="/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/1.png" alt="test"><br>More info: [&#x5904;&#x7406;&#x65B9;&#x6CD5;]<a href="http://www.xuebuyuan.com/997244.html" target="_blank" rel="external">http://www.xuebuyuan.com/997244.html</a><br>&#x4F9D;&#x65E7;&#x7528;Matlab&#x7528;&#x7684;&#x539F;&#x89C6;&#x9891;&#xFF0C;&#x5904;&#x7406;&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2KrylmUU0ec" frameborder="0" allowfullscreen></iframe><br>&#xFF08;3&#xFF09;&#x4F8B;&#x5B50;2&#xFF1A;&#x6211;&#x4EEC;&#x5199;&#x7684;&#x4EE3;&#x7801;,&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;<br><img src="/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/2.png" alt="test"><br><img src="/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/3.png" alt="test"></p>
+</blockquote>
+<h2 id="Next-Plan"><a href="#Next-Plan" class="headerlink" title="Next Plan"></a>Next Plan</h2><table><tr><td bgcolor="#D3D3D3">&#x505A;&#x51FA;3D&#x7684;&#x521A;&#x4F53;&#x76EE;&#x6807;&#x8FFD;&#x8E2A;&#x6548;&#x679C;<br></td></tr></table>
+
+<h2 id="&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;"><a href="#&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;" class="headerlink" title="&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;"></a>&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;</h2><p>More info: <a href="https://github.com/Hellenstorm/webcode" target="_blank" rel="external">&#x6211;&#x7684;github</a></p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><blockquote>
+<p>[1]. Multiple 3D Object Tracking for Augmented Reality, In ISMAR, 2008.<br>[2]. <a href="https://www.ssontech.com/tutes/tuteobj.html" target="_blank" rel="external">https://www.ssontech.com/tutes/tuteobj.html</a><br>[3]. Manipulator and Object Tracking for In-Hand 3D Object Modeling, IN IJRR, 2011.<br>[4]. Robust Statistics for 3D Object Tracking, In ICRA 2006.<br>[5]. Real-time 3D Object Pose Estimation and Tracking for Natural Landmark Based Visual Servo. In IROS.</p>
+</blockquote>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/05/26/3D-Rigid-Object-Tracking--chapter2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">3D-Rigid-Object-Tracking--chapter2</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 Hellen storm
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: ture
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
