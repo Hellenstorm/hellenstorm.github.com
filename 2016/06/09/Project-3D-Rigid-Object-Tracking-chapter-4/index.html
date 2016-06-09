@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>Project--3D Rigid Object Tracking -------chapter 4 | Hellen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="&amp;#x8FD9;&amp;#x5468;&amp;#x538B;&amp;#x529B;&amp;#x5F88;&amp;#x5927;&amp;#xFF0C;&amp;#x611F;&amp;#x89C9;&amp;#x5F97;&amp;#x5F04;&amp;#x4E2A;&amp;#x5B9E;&amp;#x5B9E;&amp;#x5728;&amp;#x5728;&amp;#x7684;&amp;#x9879;&amp;#x76EE;&amp;#x51FA;&amp;#x6765;&amp;#xFF01;&amp;#x6240;&amp;#x4EE5;&amp;#x51E0;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Project--3D Rigid Object Tracking -------chapter 4">
+<meta property="og:url" content="http://yoursite.com/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/index.html">
+<meta property="og:site_name" content="Hellen">
+<meta property="og:description" content="&amp;#x8FD9;&amp;#x5468;&amp;#x538B;&amp;#x529B;&amp;#x5F88;&amp;#x5927;&amp;#xFF0C;&amp;#x611F;&amp;#x89C9;&amp;#x5F97;&amp;#x5F04;&amp;#x4E2A;&amp;#x5B9E;&amp;#x5B9E;&amp;#x5728;&amp;#x5728;&amp;#x7684;&amp;#x9879;&amp;#x76EE;&amp;#x51FA;&amp;#x6765;&amp;#xFF01;&amp;#x6240;&amp;#x4EE5;&amp;#x51E0;">
+<meta property="og:image" content="http://yoursite.com/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/Project-3D-Rigid-Object-Tracking-chapter-3/1.png">
+<meta property="og:image" content="http://yoursite.com/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/Project-3D-Rigid-Object-Tracking-chapter-3/2.png">
+<meta property="og:image" content="http://yoursite.com/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/Project-3D-Rigid-Object-Tracking-chapter-3/3.png">
+<meta property="og:updated_time" content="2016-06-09T14:10:46.222Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Project--3D Rigid Object Tracking -------chapter 4">
+<meta name="twitter:description" content="&amp;#x8FD9;&amp;#x5468;&amp;#x538B;&amp;#x529B;&amp;#x5F88;&amp;#x5927;&amp;#xFF0C;&amp;#x611F;&amp;#x89C9;&amp;#x5F97;&amp;#x5F04;&amp;#x4E2A;&amp;#x5B9E;&amp;#x5B9E;&amp;#x5728;&amp;#x5728;&amp;#x7684;&amp;#x9879;&amp;#x76EE;&amp;#x51FA;&amp;#x6765;&amp;#xFF01;&amp;#x6240;&amp;#x4EE5;&amp;#x51E0;">
+<meta name="twitter:image" content="http://yoursite.com/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/Project-3D-Rigid-Object-Tracking-chapter-3/1.png">
+  
+    <link rel="alternative" href="/atom.xml" title="Hellen" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="null" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Hellen storm</a></h1>
+		</hgroup>
+
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>菜单</li>
+						<li>标签</li>
+						
+						
+						<li>关于我</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/Hellenstorm" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/u/3059262327?refer_flag=1005055010_&is_all=1" title="weibo">weibo</a>
+					        
+								<a class="rss" target="_blank" href="http://www.codeforge.cn" title="rss">rss</a>
+					        
+								<a class="zhihu" target="_blank" href="https://www.zhihu.com" title="zhihu">zhihu</a>
+					        
+								<a class="codeforge" target="_blank" href="http://www.codeforge.cn" title="codeforge">codeforge</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						
+					</div>
+				</section>
+				
+				
+				
+
+				
+				
+				<section class="switch-part switch-part3">
+				
+					<div id="js-aboutme">我是谁，我从哪里来，我到哪里去？我就是我，是颜色不一样的吃货…</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Hellen storm</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="null" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Hellen storm</h1>
+			</hgroup>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/Hellenstorm" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/u/3059262327?refer_flag=1005055010_&is_all=1" title="weibo">weibo</a>
+			        
+						<a class="rss" target="_blank" href="http://www.codeforge.cn" title="rss">rss</a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com" title="zhihu">zhihu</a>
+			        
+						<a class="codeforge" target="_blank" href="http://www.codeforge.cn" title="codeforge">codeforge</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-Project-3D-Rigid-Object-Tracking-chapter-4" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/" class="article-date">
+  	<time datetime="2016-06-09T13:56:52.000Z" itemprop="datePublished">2016-06-09</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Project--3D Rigid Object Tracking -------chapter 4
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>&#x8FD9;&#x5468;&#x538B;&#x529B;&#x5F88;&#x5927;&#xFF0C;&#x611F;&#x89C9;&#x5F97;&#x5F04;&#x4E2A;&#x5B9E;&#x5B9E;&#x5728;&#x5728;&#x7684;&#x9879;&#x76EE;&#x51FA;&#x6765;&#xFF01;&#x6240;&#x4EE5;&#x51E0;&#x4E4E;&#x6574;&#x4E2A;&#x4E00;&#x5468;&#x90FD;&#x5728;&#x8C03;&#x9879;&#x76EE;&#xFF01;&#x4E0B;&#x5348;&#x7EC8;&#x4E8E;&#x6709;&#x70B9;&#x8FDB;&#x5C55;&#xFF0C;&#x5F88;&#x5F00;&#x5FC3;&#xFF01;&#xFF08;&#x987A;&#x4FBF;&#x8BF4;&#x4E00;&#x4E0B;&#xFF0C;&#x4ECA;&#x5929;&#x7AEF;&#x5348;&#x8282;&#xFF0C;&#x795D;&#x6768;&#x8001;&#x5E08;&#x8282;&#x65E5;&#x5FEB;&#x4E50;&#xFF01;&#xFF09;<br>&#x4ECA;&#x5929;&#x66F4;&#x65B0;&#x4E86;&#x8FD9;&#x5468;&#x505A;&#x7684;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;&#x5B89;&#x5353;&#x5F00;&#x53D1;&#xFF0C;&#x5229;&#x7528;opencv&#x5E93;&#x5B9E;&#x73B0;&#x589E;&#x5F3A;&#x73B0;&#x5B9E;&#x7684;&#x5C0F;&#x9879;&#x76EE;&#xFF01; &#x8FD8;&#x6709;&#x57FA;&#x4E8E;c++&#x7684;ar_marke&#xFF0C;&#x8FD8;&#x5728;&#x8C03;&#x8BD5;&#x4E2D;&#xFF01;<br>&#x5177;&#x4F53;&#x4ECB;&#x7ECD;&#x770B;&#x6211;&#x7684; <a href="#jump">Progress</a></p>
+<h2 id="Team-amp-Project"><a href="#Team-amp-Project" class="headerlink" title="Team  &amp; Project"></a>Team  &amp; Project</h2><table><tr><td bgcolor="#D3D3D3">&#x8BFE;&#x7A0B;&#x540D;&#x79F0;: &#x56FE;&#x50CF;&#x5206;&#x6790;&#x4E0E;&#x7406;&#x89E3;<br>&#x9879;&#x76EE;&#x540D;&#x79F0;: 3D Rigid Object Tracking<br>HeadLine: 6/17/2016<br>&#x961F;&#x5458;&#x59D3;&#x540D;&#xFF1A;&#x6768;&#x6885;&#xFF0C;&#x8BB8;&#x4F73;&#x742A;&#xFF0C;&#x7F57;&#x97F3;<br>&#x534E;&#x4E2D;&#x79D1;&#x6280;&#x5927;&#x5B66; &#x7535;&#x5B50;&#x4FE1;&#x606F;&#x4E0E;&#x901A;&#x4FE1;&#x5B66;&#x9662;<br></td></tr></table>
+
+
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><table><tr><td bgcolor="#D3D3D3">The objective of 3D rigid object tracking is to associate 3D target objects in consecutive video frames and meanwhile estimate the relative pose (3D translation and 3D rotation) between the 3D targetand the camera. Rigid means the relative position among object components do not change. For instance, a cup, a book and a car are rigid object while a human face and a cat are non-rigid object. It has a variety of uses, some of which are: humancomputer interaction, security and surveillance, video communication and compression, augmented reality, traffic control, medical imaging and video editing.3D object tracking can be especially difficult when the objects are moving fast relative to the frame rate. Another situation that increases the complexity of the problem is when the tracked object changes orientation over time. For these situations the tracking system usually employs a motion model whichdescribes how the image of the target might change for different possible motions of the object.<br></td></tr></table>
+
+<h2 id="Progress"><a href="#Progress" class="headerlink" title="Progress"></a><span id="jump">Progress</span></h2><h3 id="&#x4E00;-&#x914D;&#x7F6E;&#x57FA;&#x4E8E;eclipse-&#x5B89;&#x5353;&#x5F00;&#x53D1;&#x73AF;&#x5883;"><a href="#&#x4E00;-&#x914D;&#x7F6E;&#x57FA;&#x4E8E;eclipse-&#x5B89;&#x5353;&#x5F00;&#x53D1;&#x73AF;&#x5883;" class="headerlink" title="&#x4E00; &#x914D;&#x7F6E;&#x57FA;&#x4E8E;eclipse &#x5B89;&#x5353;&#x5F00;&#x53D1;&#x73AF;&#x5883;"></a>&#x4E00; &#x914D;&#x7F6E;&#x57FA;&#x4E8E;eclipse &#x5B89;&#x5353;&#x5F00;&#x53D1;&#x73AF;&#x5883;</h3><blockquote>
+</blockquote>
+<p>More info: <a href="http://jingyan.baidu.com/article/90895e0fcbf60764ec6b0b11.html" target="_blank" rel="external">Android&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x642D;&#x5EFA;&#xFF1A;Eclipse&#x7BC7;</a></p>
+<h3 id="&#x4E8C;-&#x5173;&#x4E8E;&#x9879;&#x76EE;"><a href="#&#x4E8C;-&#x5173;&#x4E8E;&#x9879;&#x76EE;" class="headerlink" title="&#x4E8C; &#x5173;&#x4E8E;&#x9879;&#x76EE;"></a>&#x4E8C; &#x5173;&#x4E8E;&#x9879;&#x76EE;</h3><blockquote>
+<p>&#x4E3A;&#x4E86;&#x6700;&#x7EC8;&#x505A;&#x51FA;3D&#x7684;&#x6548;&#x679C;&#xFF0C;&#x6211;&#x4EEC;&#x60F3;&#x5229;&#x7528;openCV&#x7684;&#x5F3A;&#x5927;&#x7684;&#x56FE;&#x50CF;&#x5904;&#x7406;&#x529F;&#x80FD;&#xFF0C;&#x505A;&#x4E86;&#x5982;&#x4E0B;&#x5DE5;&#x4F5C;&#xFF1A;<br>&#xFF08;1&#xFF09;&#x914D;&#x7F6E;openCV&#xFF1A;<a href="http://blog.csdn.net/huang9012/article/details/21811129" target="_blank" rel="external">http://blog.csdn.net/huang9012/article/details/21811129</a><br><a href="http://jingyan.baidu.com/article/90895e0fcbf60764ec6b0b11.html" target="_blank" rel="external">http://jingyan.baidu.com/article/90895e0fcbf60764ec6b0b11.html</a><br> <a href="http://www.cnblogs.com/doublesnke/archive/2011/07/19/2110341.html" target="_blank" rel="external">http://www.cnblogs.com/doublesnke/archive/2011/07/19/2110341.html</a><br> <a href="http://blog.sina.com.cn/s/blog_915fe1f201019xx2.html" target="_blank" rel="external">http://blog.sina.com.cn/s/blog_915fe1f201019xx2.html</a><br>3.&#x51FA;&#x73B0;&#x5982;&#x4E0B;&#x6293;&#x72C2;&#x7684;&#x9519;&#x8BEF;&#xFF1A;<br><img src="/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/Project-3D-Rigid-Object-Tracking-chapter-3/1.png" alt="test"><br>More info: [&#x5904;&#x7406;&#x65B9;&#x6CD5;]<a href="http://www.xuebuyuan.com/997244.html" target="_blank" rel="external">http://www.xuebuyuan.com/997244.html</a><br>&#x4F9D;&#x65E7;&#x7528;Matlab&#x7528;&#x7684;&#x539F;&#x89C6;&#x9891;&#xFF0C;&#x5904;&#x7406;&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/2KrylmUU0ec" frameborder="0" allowfullscreen></iframe><br>&#xFF08;3&#xFF09;&#x4F8B;&#x5B50;2&#xFF1A;&#x6211;&#x4EEC;&#x5199;&#x7684;&#x4EE3;&#x7801;,&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;<br><img src="/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/Project-3D-Rigid-Object-Tracking-chapter-3/2.png" alt="test"><br><img src="/2016/06/09/Project-3D-Rigid-Object-Tracking-chapter-4/Project-3D-Rigid-Object-Tracking-chapter-3/3.png" alt="test"></p>
+</blockquote>
+<h2 id="Next-Plan"><a href="#Next-Plan" class="headerlink" title="Next Plan"></a>Next Plan</h2><table><tr><td bgcolor="#D3D3D3">&#x505A;&#x51FA;3D&#x7684;&#x521A;&#x4F53;&#x76EE;&#x6807;&#x8FFD;&#x8E2A;&#x6548;&#x679C;<br></td></tr></table>
+
+<h2 id="&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;"><a href="#&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;" class="headerlink" title="&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;"></a>&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;</h2><p>&#x89C1;little-AR.zip,&#x8981;&#x7528;&#x5230;&#x7684;&#x5361;&#x7247;&#x662F;ARmarkers.pdf&#x3002;&#x4E3B;&#x8981;&#x662F;&#x5173;&#x4E8E;AR&#x7684;&#x3002;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#xFF01;<br>More info: <a href="https://github.com/Hellenstorm/webcode" target="_blank" rel="external">&#x6211;&#x7684;github</a></p>
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><blockquote>
+<p>[1]. Multiple 3D Object Tracking for Augmented Reality, In ISMAR, 2008.<br>[2]. <a href="https://www.ssontech.com/tutes/tuteobj.html" target="_blank" rel="external">https://www.ssontech.com/tutes/tuteobj.html</a><br>[3]. Manipulator and Object Tracking for In-Hand 3D Object Modeling, IN IJRR, 2011.<br>[4]. Robust Statistics for 3D Object Tracking, In ICRA 2006.<br>[5]. Real-time 3D Object Pose Estimation and Tracking for Natural Landmark Based Visual Servo. In IROS.</p>
+</blockquote>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/06/02/Project-3D-Rigid-Object-Tracking-chapter-3/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Project--3D Rigid Object Tracking -------chapter 3</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		&copy; 2016 Hellen storm
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: ture
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>
